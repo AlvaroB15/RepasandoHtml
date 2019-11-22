@@ -21,17 +21,27 @@
         <li>Comentaremos el editado de texto (cursica, negrita , subrayado, resaltado o tmb llamada marcado)</li>
         <br>
         <li>Una letra en negrita se usa la etiqueta <strong>strong</strong> o de una forma abreviada es la etiqueta
-            <b>b</b></li>
+            <b>b</b>
+        </li>
+
         <br>
+
         <li>para el uso de la letra cursiva es la etiqueta <em>em</em> o tmb la etiqueta <i>i</i></li>
+
         <br>
+
         <li>para el subrayado es el <u>La etiqueta es -> u</u></li>
         <br>
+
         <li>para una abreviacion es la etiqueta <abbr
                 title="Esto es una abreviacion que se mostrara cuando pases el mouse sobre la palabra liuego de esta etiqueta">Palabra
                 abreviada, la Etiqueta es abbr</abbr> , la etiquetada abbr y dentro de eso le agregas el atributo title
             y luego de eso pero luego de cerrar la etiqueta pones la palabra de la cual se pasara el mouse y la
             abreviacion</li>
+        <br>
+        <img src="Capturas/Etiquetas1.png" alt="Diversas Etiquetas">
+        <br>
+
         <br>
         <li>Para que un texto este markado como subrayado simple <ins>La etiqueta ins</ins></li>
         <br>
@@ -67,25 +77,28 @@
                 <br>
                 <li>
                     <dl>
-                        <dt>name 1</dt>
-                        <dd>value for 1</dd>
-                        <dt>name 2</dt>
-                        <dd>value for 2</dd>
+                        <dt>Objeto 1</dt>
+                        <dd>Descripcion de Objeto 1 y Objeto 2</dd>
+                        <dt>Objeto 2</dt>
+                        <dd>Descripcion de Objeto 2</dd>
                     </dl>
                 </li>
                 <br>
                 <li>
                     <dl>
-                        <dt>name 1</dt>
-                        <dt>name 2</dt>
-                        <dd>value for 1 and 2</dd>
-                        <dt>name 3</dt>
-                        <dd>value for 3</dd>
-                        <dd>value for 3</dd>
+                        <dt>Objeto 1</dt>
+                        <dt>Objeto 2</dt>
+                        <dd>Descripcion de Objeto 1 y Objeto 2</dd>
+                        <dt>Objeto 3</dt>
+                        <dt>Objeto 4</dt>
+                        <dd>Descripcion de Objeto 3 y Objeto 4</dd>
                     </dl>
                 </li>
             </ol>
         </li>
+        <br>
+        <img src="Capturas/Etiquetas2.png" alt="Diversas Etiquetas">
+        <br>
         <br>
         <li>
 
@@ -109,12 +122,16 @@
             <h3>Listas No ordenadas</h3>
             Lo mismo que el anterior, solo que no pone nada, y no ordena nada <mark>Este es una lista No Ordenada</mark>
             <ul>
-                 <br>
+                <br>
                 <li>Pan</li>
                 <li>Te</li>
                 <li>Leche</li>
                 <li>Queso</li>
             </ul>
+            <br>
+            <img src="Capturas/Etiquetas3.png" alt="Diversas Etiquetas">
+            <br>
+
             <br>
             Si queremos que la lista comienza en un numero diferente, osea q no sea 1,2,3; entonces puede comenzar
             5,6,7,8,... , para que comienze en otro seria un atributo dentro de ol, seria start="numeroAinicar", para
@@ -149,24 +166,95 @@
                 <li>Another Item</li>
                 <li>Yet Another Item</li>
             </ol>
+            <br>
+            <img src="Capturas/Etiquetas4.png" alt="Diversas Etiquetas">
+            <br>
 
         </li>
         <br>
+<<<<<<< HEAD
         <li></li>
         <br>
         
     </ul>
 
+=======
+>>>>>>> gh-pages
 
-    <p></p>
+    </ul>
+
+    <ul>
+        <li>
+            <h3>Tablas (Tables)</h3>
+            <p>Las tablas estan conformadas por filas, osea al declararlo, se declara cada fila, osea en una table rows
+                (tr), table headers (th) que significa que sera el "titulo" y estara com negrita, luego el table data
+                (td) la cual estara la data que describe el encabezado</p>
+
+            <table>
+                <tr>
+                    <th>Titulo de la columna 1|| </th>
+                    <th>Titulo de la columna 2|| </th>
+                </tr>
+                <tr>
+                    <td>Dato de la Fila 1 y Columna 1|| </td>
+                    <td>Dato de la Fila 1 y Columna 2|| </td>
+                </tr>
+                <tr>
+                    <td>Dato de la Fila 2 y Columna 1|| </td>
+                    <td>Dato de la Fila 2 y Columna 2|| </td>
+                </tr>
+            </table>
+            <br>
+
+            <p>Otra forma de acer y con cosas diferentes es: </p>
+            <p>Para hacer un titulo de la tabla, seria la etiqueta <mark> caption </mark> </p>
+
+            <table>
+                <caption>Titulo de la Tabla</caption>
+                <tr>
+                    <th>Titulo de la columna 1|| </th>
+                    <th>Titulo de la columna 2|| </th>
+                    <th>Titulo de la columna 3|| </th>
+                </tr>
+                <tr>
+                    <td>row 1 col 1</td>
+                    <td>row 1 col 2</td>
+                    <td>row 1 col 3</td>
+                </tr>
+                <tr>
+                    <td colspan="3">This second row spans all three columns</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">This cell spans two rows</td>
+                    <td>row 3 col 2</td>
+                    <td>row 3 col 3</td>
+                </tr>
+                <tr>
+                    <td>row 4 col 2</td>
+                    <td>row 4 col 3</td>
+                </tr>
+            </table>
+            <br>
+            <img src="Capturas/EtiquetasTabla.png" alt="Diversas Etiquetas">
+            <br>
+            <p>Un poco mas de informacion en el siguiente link</p>
+            <a href="https://uniwebsidad.com/libros/xhtml/capitulo-7/tablas-basicas">Info algo mas detallada de tablas en Html5</a>
+            <br>
+            <p>Info para las algunas de las etiquetas de Html5</p>
+            <a href="https://developer.mozilla.org/es/docs/HTML/HTML5/HTML5_lista_elementos">algunas de las etiquetas de Html5</a>
+            
+        </li>
+
+        <li>
+            <br>
+            <button>Boton con la etiqueta button</button>
+        </li>
+    </ul>
 
 
 
 
-
-
-
-    <p>Me quede en la pagina 26</p>
+    <p>Me quede en la pagina 27</p>
 </body>
 
 </html>
