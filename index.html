@@ -6,139 +6,190 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Apuntes de Html5</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <p>Mostramos los Diferentes Tipos de "Titulos", son los encabezados</p>
-    <h1>La etiqueta es h1</h1>
-    <h2>La etiqueta es h2</h2>
-    <h3>La etiqueta es h3</h3>
-    <h4>La etiqueta es h4</h4>
-    <h5>La etiqueta es h5</h5>
-    <h6>La etiqueta es h6</h6>
-
-    <ul>
-        <li>Comentaremos el editado de texto (cursica, negrita , subrayado, resaltado o tmb llamada marcado)</li>
-        <br>
-        <li>Una letra en negrita se usa la etiqueta <strong>strong</strong> o de una forma abreviada es la etiqueta
-            <b>b</b>
-        </li>
-
-        <br>
-
-        <li>para el uso de la letra cursiva es la etiqueta <em>em</em> o tmb la etiqueta <i>i</i></li>
-
-        <br>
-
-        <li>para el subrayado es el <u>La etiqueta es -> u</u></li>
-        <br>
-
-        <li>para una abreviacion es la etiqueta <abbr
-                title="Esto es una abreviacion que se mostrara cuando pases el mouse sobre la palabra liuego de esta etiqueta">Palabra
-                abreviada, la Etiqueta es abbr</abbr> , la etiquetada abbr y dentro de eso le agregas el atributo title
-            y luego de eso pero luego de cerrar la etiqueta pones la palabra de la cual se pasara el mouse y la
-            abreviacion</li>
-        <br>
-        <img src="Capturas/Etiquetas1.png" alt="Diversas Etiquetas">
-        <br>
-
-        <br>
-        <li>Para que un texto este markado como subrayado simple <ins>La etiqueta ins</ins></li>
-        <br>
-        <li>luego para a un texto tacharlo en el medio, es la <del>etiqueta del</del>,</li>
-        <br>
-        <li>luego para el <s>Struck-through text here</s>, para mas info en la pag 16, en el titulo de 5.4 Inserted,
-            Deleted, or Stricken</p>
-        </li>
-        <br>
-        <li>Tenemos el texto este en indice de arriba seria con la etiqueta <sup>Etiqueta sup</sup> y para el indice
-            inferior <sub>Etiqueta sub</sub></li>
-        <br>
-        <li>Para el manejo de los links se puede usar, la etiqueta a, dentro de ellos se puede poner atributos, como se
-            mostrara en los siguiente ejemplos
-            <ol>
-                <br>
-                <li>La etiqueta seria -> a, con atributo href <a href="http:www.google.com.pe">Clikeame XD</a>, por
-                    defecto al darle click, hace que en la misma pesatana que se encuantra este index, se redireccione
-                    al link, para que se dirija a otro, seria <a href="http://example.com/" rel="external">example
-                        site</a>, para mas info, MIRAR LA INFO DE LAS ETIQUETAS QUE BUSQUES </li>
-                <br>
-                <li>Para poder abrir en una diferente pestaña se usa el atributo target <a href="http:www.google.com.pe"
-                        target="_blank">Clickeame</a></li>
-                <br>
-            </ol>
-        </li>
-        <li>
-            <h3>Descripcion de Listas</h3>
-            "A description list (or definition list, as it was called before HTML5) can be created with the dl element.
-            It consists of name-value groups, where the name is given in the dt element, and the value is given in the
-            dd element."
-            <ol>
-                <br>
-                <li>
-                    <dl>
-                        <dt>Objeto 1</dt>
-                        <dd>Descripcion de Objeto 1 y Objeto 2</dd>
-                        <dt>Objeto 2</dt>
-                        <dd>Descripcion de Objeto 2</dd>
-                    </dl>
-                </li>
-                <br>
-                <li>
-                    <dl>
-                        <dt>Objeto 1</dt>
-                        <dt>Objeto 2</dt>
-                        <dd>Descripcion de Objeto 1 y Objeto 2</dd>
-                        <dt>Objeto 3</dt>
-                        <dt>Objeto 4</dt>
-                        <dd>Descripcion de Objeto 3 y Objeto 4</dd>
-                    </dl>
-                </li>
-            </ol>
-        </li>
-        <br>
-        <img src="Capturas/Etiquetas2.png" alt="Diversas Etiquetas">
-        <br>
-        <br>
-        <li>
-
-            <h3>Ordenamiento de Listas</h3>
-            Es el parrafo de la lista ordenada, el ordenamiento de la lista, no consiste en que
-            ordene los item o articulos, solo que al nombrarlos, o mostrarlos, solo se le agrega el 1., 2., 3., en el
-            orden
-            que lo hayas puesto <mark>Esto es para una Lista Ordenada</mark>
-
-            <ol>
-                <br>
-                <li>Pan</li>
-                <li>Te</li>
-                <li>Leche</li>
-                <li>Queso</li>
-            </ol>
-
-        </li>
-        <br>
-        <li>
-            <h3>Listas No ordenadas</h3>
-            Lo mismo que el anterior, solo que no pone nada, y no ordena nada <mark>Este es una lista No Ordenada</mark>
-            <ul>
-                <br>
-                <li>Pan</li>
-                <li>Te</li>
-                <li>Leche</li>
-                <li>Queso</li>
+    <!-- Haciendo semantica en algo a esta simple web como demo -->
+    <!-- header     nav     section     article     aside       footer,  solo se hacen los necesarios a su web, puede que solo haya 2 o 1 , etc. -->
+    <header>
+        <nav>
+            <ul id="menu">
+                <li id="enlace"><a href="index.html">Inicio</a></li>
+                <li id="enlace"><a href="formularios.html">Formularios</a></li>
+                <li id="enlace"><a href="multimedia.html">Multimedia</a></li>
+                <li id="enlace"><a href="sgv.html">SGV</a></li>
             </ul>
-            <br>
-            <img src="Capturas/Etiquetas3.png" alt="Diversas Etiquetas">
-            <br>
+        </nav>
+    </header>
 
+    <section>
+
+        <article class="primerArticulo">
+            <p>Mostramos los Diferentes Tipos de "Titulos", son los encabezados</p>
+            <h1>La etiqueta es h1</h1>
+            <h2>La etiqueta es h2</h2>
+            <h3>La etiqueta es h3</h3>
+            <h4>La etiqueta es h4</h4>
+            <h5>La etiqueta es h5</h5>
+            <h6>La etiqueta es h6</h6>
+        </article>
+
+        <article class="segundoArticulo">
+
+            <figure>
+                <img src="Capturas/Etiquetas1.png" alt="Diversas Etiquetas">
+                <figcaption>Representacion de codigo de lo de a lado</figcaption>
+            </figure>
+
+            <div class="parrafoImagen">
+                <li>Comentaremos el editado de texto (cursica, negrita , subrayado, resaltado o tmb llamada marcado)
+                </li>
+                <br>
+                <li>Una letra en negrita se usa la etiqueta <strong>strong</strong> o de una forma abreviada es la
+                    etiqueta
+                    <b>b</b>
+                </li>
+
+                <br>
+
+                <li>para el uso de la letra cursiva es la etiqueta <em>em</em> o tmb la etiqueta <i>i</i></li>
+
+                <br>
+
+                <li>para el subrayado es el <u>La etiqueta es -> u</u></li>
+                <br>
+
+                <li>para una abreviacion es la etiqueta <abbr
+                        title="Esto es una abreviacion que se mostrara cuando pases el mouse sobre la palabra liuego de esta etiqueta">Palabra
+                        abreviada, la Etiqueta es abbr</abbr> , la etiquetada abbr y dentro de eso le agregas el
+                    atributo title y luego de eso pero luego de cerrar la etiqueta pones la palabra de la cual se pasara
+                    el mouse y la abreviacion</li>
+            </div>
+        </article>
+
+        <article>
             <br>
-            Si queremos que la lista comienza en un numero diferente, osea q no sea 1,2,3; entonces puede comenzar
-            5,6,7,8,... , para que comienze en otro seria un atributo dentro de ol, seria start="numeroAinicar", para
-            que
-            comienze desde el final, la lista no ordenada, ya cuenta cuantos li tienes y comienza desde 7,6,5; otro
-            seria
-            4,3,2, el atributo a ponerse en el ol (lista no ordenada), seria reversed
+            <li>Para que un texto este markado como subrayado simple <ins>La etiqueta ins</ins></li>
+            <br>
+            <li>luego para a un texto tacharlo en el medio, es la <del>etiqueta del</del>,</li>
+            <br>
+            <li>luego para el <s>Struck-through text here</s>, para mas info en la pag 16, en el titulo de 5.4 Inserted,
+                Deleted, or Stricken</p>
+            </li>
+            <br>
+            <li>Tenemos el texto este en indice de arriba seria con la etiqueta <sup>Etiqueta sup</sup> y para el indice
+                inferior <sub>Etiqueta sub</sub></li>
+            <br>
+            <li>Para el manejo de los links se puede usar, la etiqueta a, dentro de ellos se puede poner atributos, como
+                se
+                mostrara en los siguiente ejemplos
+                <ol>
+                    <br>
+                    <li>La etiqueta seria -> a, con atributo href <a href="http:www.google.com.pe">Clikeame XD</a>, por
+                        defecto al darle click, hace que en la misma pesatana que se encuantra este index, se
+                        redireccione
+                        al link, para que se dirija a otro, seria <a href="http://example.com/" rel="external">example
+                            site</a>, para mas info, MIRAR LA INFO DE LAS ETIQUETAS QUE BUSQUES </li>
+                    <br>
+                    <li>Para poder abrir en una diferente pestaña se usa el atributo target <a
+                            href="http:www.google.com.pe" target="_blank">Clickeame </li>
+                </ol>
+            </li>
+
+        </article>
+
+        <article>
+
+            <figure>
+                <img src="Capturas/Etiquetas2.png" alt="Diversas Etiquetas">
+                <figcaption>Representacion de codigo de lo de a lado</figcaption>
+            </figure>
+
+            <li>
+                <h3>Descripcion de Listas</h3>
+                <p>"A description list (or definition list, as it was called before HTML5) can be created with the dl
+                    element. It consists of name-value groups, where the name is given in the dt element, and the value
+                    is given in the dd element."</p>
+                <ol>
+                    <br>
+                    <li>
+                        <dl>
+                            <dt>Objeto 1</dt>
+                            <dd>Descripcion de Objeto 1 y Objeto 2</dd>
+                            <dt>Objeto 2</dt>
+                            <dd>Descripcion de Objeto 2</dd>
+                        </dl>
+                    </li>
+                    <br>
+                    <li>
+                        <dl>
+                            <dt>Objeto 1</dt>
+                            <dt>Objeto 2</dt>
+                            <dd>Descripcion de Objeto 1 y Objeto 2</dd>
+                            <dt>Objeto 3</dt>
+                            <dt>Objeto 4</dt>
+                            <dd>Descripcion de Objeto 3 y Objeto 4</dd>
+                        </dl>
+                    </li>
+                </ol>
+            </li>
+
+        </article>
+
+
+
+
+
+        <article>
+
+            <figure>
+                <img src="Capturas/Etiquetas3.png" alt="Diversas Etiquetas">
+                <figcaption>Representacion de codigo de lo de a lado</figcaption>
+            </figure>
+
+            <li>
+                <h3>Ordenamiento de Listas</h3>
+                <p>Es el parrafo de la lista ordenada, el ordenamiento de la lista, no consiste en que ordene los item o
+                    articulos, solo que al nombrarlos, o mostrarlos, solo se le agrega el 1., 2., 3., en el orden que lo
+                    hayas puesto <mark>Esto es para una Lista Ordenada</mark></p>
+
+                <ol>
+                    <br>
+                    <li>Pan</li>
+                    <li>Te</li>
+                    <li>Leche</li>
+                    <li>Queso</li>
+                </ol>
+
+            </li>
+            <br>
+            <li>
+                <h3>Listas No ordenadas</h3>
+                <p>Lo mismo que el anterior, solo que no pone nada, y no ordena nada <mark>Este es una lista No
+                        Ordenada</mark></p>
+                <ul>
+                    <br>
+                    <li>Pan</li>
+                    <li>Te</li>
+                    <li>Leche</li>
+                    <li>Queso</li>
+                </ul>
+        </article>
+
+
+
+        <article>
+
+            <figure>
+                <img src="Capturas/Etiquetas4.png" alt="Diversas Etiquetas">
+                <figcaption>Representacion de codigo de lo de a lado</figcaption>
+            </figure>
+
+            <p> Si queremos que la lista comienza en un numero diferente, osea q no sea 1,2,3; entonces puede comenzar
+                5,6,7,8,... , para que comienze en otro seria un atributo dentro de ol, seria start="numeroAinicar",
+                para que comienze desde el final, la lista no ordenada, ya cuenta cuantos li tienes y comienza desde
+                7,6,5; otro seria 4,3,2, el atributo a ponerse en el ol (lista no ordenada), seria reversed</p>
 
             <ol start="3">
                 <br>
@@ -166,101 +217,105 @@
                 <li>Another Item</li>
                 <li>Yet Another Item</li>
             </ol>
-            <br>
-            <img src="Capturas/Etiquetas4.png" alt="Diversas Etiquetas">
-            <br>
 
-        </li>
+            </li>
+
+        </article>
+
+
+        <article>
+
+            <figure>
+                <img src="Capturas/EtiquetasTabla.png" alt="Diversas Etiquetas">
+                <figcaption>Representacion de codigo de lo de a lado</figcaption>
+            </figure>
+
+            <li>
+                <h3>Tablas (Tables)</h3>
+                <p>Las tablas estan conformadas por filas, osea al declararlo, se declara cada fila, osea en una table rows (tr), table headers (th) que significa que sera el "titulo" y estara com negrita, luego el table data (td) la cual estara la data que describe el encabezado</p>
+
+                <table>
+                    <tr>
+                        <th>Titulo de la columna 1|| </th>
+                        <th>Titulo de la columna 2|| </th>
+                    </tr>
+                    <tr>
+                        <td>Dato de la Fila 1 y Columna 1|| </td>
+                        <td>Dato de la Fila 1 y Columna 2|| </td>
+                    </tr>
+                    <tr>
+                        <td>Dato de la Fila 2 y Columna 1|| </td>
+                        <td>Dato de la Fila 2 y Columna 2|| </td>
+                    </tr>
+                </table>
+                <br>
+
+                <p>Otra forma de acer y con cosas diferentes es: </p>
+                <p>Para hacer un titulo de la tabla, seria la etiqueta <mark> caption </mark> </p>
+
+                <table>
+                    <caption>Titulo de la Tabla</caption>
+                    <tr>
+                        <th>Titulo de la columna 1|| </th>
+                        <th>Titulo de la columna 2|| </th>
+                        <th>Titulo de la columna 3|| </th>
+                    </tr>
+                    <tr>
+                        <td>row 1 col 1</td>
+                        <td>row 1 col 2</td>
+                        <td>row 1 col 3</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">This second row spans all three columns</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">This cell spans two rows</td>
+                        <td>row 3 col 2</td>
+                        <td>row 3 col 3</td>
+                    </tr>
+                    <tr>
+                        <td>row 4 col 2</td>
+                        <td>row 4 col 3</td>
+                    </tr>
+                </table>
+
+                <p>Un poco mas de informacion en el siguiente link</p>
+                <a href="https://uniwebsidad.com/libros/xhtml/capitulo-7/tablas-basicas" target="_blank">Info algo mas
+                    detallada de tablas en Html5</a>
+                <br>
+                <p>Info para las algunas de las etiquetas de Html5</p>
+                <a href="https://developer.mozilla.org/es/docs/HTML/HTML5/HTML5_lista_elementos" target="_blank">algunas
+                    de
+                    las etiquetas de Html5</a>
+
+            </li>
+
+            <li>
+                <br>
+                <p align="center"><mark>Me quede en la pagina 27 del pdf de Notas Profesionales de StackOverFlow
+                        XD</mark>
+                </p>
+            </li>
+
+        </article>
+
+
         <br>
+        <br>
+        <hr width="90%">
 
-    </ul>
+        <!-- <input type="button" value="Apuntes de practicas" > -->
+        <h2>Apuntes de SoloLearn</h2>
+        <!-- Por defecto me bota al lado izq -->
+        <!-- <a href="formularios.html"><img align="right" src="Capturas/sololearn.jpg" alt="logo de SoloLearn" ></a> -->
+        <br>
+        <!-- <p align="center"><img src="Capturas/sololearn.jpg" alt="logo de SoloLearn" ></p> -->
 
-    <ul>
-        <li>
-            <h3>Tablas (Tables)</h3>
-            <p>Las tablas estan conformadas por filas, osea al declararlo, se declara cada fila, osea en una table rows
-                (tr), table headers (th) que significa que sera el "titulo" y estara com negrita, luego el table data
-                (td) la cual estara la data que describe el encabezado</p>
-
-            <table>
-                <tr>
-                    <th>Titulo de la columna 1|| </th>
-                    <th>Titulo de la columna 2|| </th>
-                </tr>
-                <tr>
-                    <td>Dato de la Fila 1 y Columna 1|| </td>
-                    <td>Dato de la Fila 1 y Columna 2|| </td>
-                </tr>
-                <tr>
-                    <td>Dato de la Fila 2 y Columna 1|| </td>
-                    <td>Dato de la Fila 2 y Columna 2|| </td>
-                </tr>
-            </table>
-            <br>
-
-            <p>Otra forma de acer y con cosas diferentes es: </p>
-            <p>Para hacer un titulo de la tabla, seria la etiqueta <mark> caption </mark> </p>
-
-            <table>
-                <caption>Titulo de la Tabla</caption>
-                <tr>
-                    <th>Titulo de la columna 1|| </th>
-                    <th>Titulo de la columna 2|| </th>
-                    <th>Titulo de la columna 3|| </th>
-                </tr>
-                <tr>
-                    <td>row 1 col 1</td>
-                    <td>row 1 col 2</td>
-                    <td>row 1 col 3</td>
-                </tr>
-                <tr>
-                    <td colspan="3">This second row spans all three columns</td>
-                </tr>
-                <tr>
-                    <td rowspan="2">This cell spans two rows</td>
-                    <td>row 3 col 2</td>
-                    <td>row 3 col 3</td>
-                </tr>
-                <tr>
-                    <td>row 4 col 2</td>
-                    <td>row 4 col 3</td>
-                </tr>
-            </table>
-            <br>
-            <img src="Capturas/EtiquetasTabla.png" alt="Diversas Etiquetas">
-            <br>
-            <p>Un poco mas de informacion en el siguiente link</p>
-            <a href="https://uniwebsidad.com/libros/xhtml/capitulo-7/tablas-basicas" target="_blank">Info algo mas
-                detallada de tablas en Html5</a>
-            <br>
-            <p>Info para las algunas de las etiquetas de Html5</p>
-            <a href="https://developer.mozilla.org/es/docs/HTML/HTML5/HTML5_lista_elementos" target="_blank">algunas de
-                las etiquetas de Html5</a>
-
-        </li>
-
-        <li>
-            <br>
-            <p align="center"><mark>Me quede en la pagina 27 del pdf de Notas Profesionales de StackOverFlow XD</mark>
-            </p>
-        </li>
+        <p align="center"><a href="formularios.html"><img src="Capturas/sololearn.jpg" alt="logo de SoloLearn"
+                    border="1px"></a></p>
 
 
-    </ul>
-
-    <br>
-    <br>
-    <hr width="100%">
-
-    <!-- <input type="button" value="Apuntes de practicas" > -->
-    <h2>Apuntes de SoloLearn</h2>
-    <!-- Por defecto me bota al lado izq -->
-    <!-- <a href="formularios.html"><img align="right" src="Capturas/sololearn.jpg" alt="logo de SoloLearn" ></a> -->
-    <br>
-    <!-- <p align="center"><img src="Capturas/sololearn.jpg" alt="logo de SoloLearn" ></p> -->
-
-    <p align="center"><a href="formularios.html"><img src="Capturas/sololearn.jpg" alt="logo de SoloLearn"
-                border="1px"></a></p>
+    </section>
 
 </body>
 
