@@ -1,5 +1,5 @@
 *{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background-color:#333;
     color: whitesmoke;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -32,7 +32,7 @@ figure{
     float: right;
 }
 
-figcaption,  .titulo {
+figcaption,  .titulo , .centrado{
     text-align: center;
 }
 
@@ -46,4 +46,9 @@ footer p{
 
 section{
     padding: 30px 0px 30px 20px;
+}
+
+.subir{
+    float: right;
+    padding-right: 35px;
 }
